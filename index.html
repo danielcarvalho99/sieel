@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <link rel="stylesheet" href = "index.css">
+    <meta charset="utf-8" />
+    <title>Sistema Integrado da SIEEL</title>
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+
+            <img class = "container" src = "logo.png" alt = logo >
+
+            <ul class = "navLinks">
+                <li>
+                    <a href="#">Sieel</a>
+                </li>
+                <li>
+                    <a href="#">Cronograma</a>
+                </li>
+                <li>
+                    <a href="#">Inscreva-se</a>
+                </li>
+            </ul>
+     
+        </nav>
+    </header>
+
+    <h1>Bem vindo ao Sistema de Cadastro integrado da SIEEL</h1>
+    <h3>Ingressos, compras, presenças e certificados. Tudo isso em um único lugar</h3>
+
+    <!-- <div class = "gear">
+    
+        <img class = "img_gear" src = "gear.png" alt = logo >
+        <div class = "text_center">SIEEL</div>
+    
+    </div> -->
+
+    <div class = "JanelaCadastro">
+        <form action="index.php" method="post">
+
+            <div class="nome">
+            <label for="nome">Nome</label> <br />
+            <input type="text" class="input_box" id="nome" name="nome" size="30" maxlength="100" placeholder="Insira seu nome" require/> <br />
+            </div>
+
+            <div class = "sobrenome">
+            <label for="sobrenome">Sobrenome</label> <br />
+            <input type="text" class="input_box" id="sobrenome" name="sobrenome" size="30" maxlength="100" placeholder="Insira o seu sobrenome" require /> <br />
+            </div>
+
+            <div class = "rg">
+            <label for="rg">Número do RG</label> <br />
+            <input type="text" id="rg" name="rg" class="input_box" size="30" maxlength="30" placeholder="Insira o seu número de RG" require/> <br />
+            </div>
+
+            <div class = "tel">
+            <label for="tel">Telefone de contato</label> <br />
+            <input type="tel" id="tel" name="tel" size="30" class="input_box" placeholder="Insira o seu telefone para contato" /> <br />
+            </div>
+
+            <div class = "faculdade">
+            <label for="faculdade">Qual é a sua universidade? <br></label> <br />
+            <input type="radio" name="faculdade" value="USP" />USP <br />
+            <input type="radio" name="faculdade" value="UFSCar" />UFSCar <br />
+            <input type="radio" name="faculdade" value="outro" />Outro <br />
+            </div>
+
+            <div class="matricula">
+            <label for="matricula">Número da Matrícula</label> <br />
+            <input type="text" id="matricula" name="matricula" class="input_box" size="30" maxlength="30" placeholder="Insira o seu número de matrícula" /> <br />
+            </div>
+
+            <div class="email">
+            <label for="email">Email</label> <br />
+            <input type="email" id="email" name="email" class="input_box" size="30" placeholder="Insira um email" require /> <br />
+            </div>
+                
+            <div class="criar_senha">
+            <label for="criar_senha">Criar senha</label> <br />
+            <input type="password" id="criar_senha" name="criar_senha" class="input_box" size="30" maxlength="50" placeholder="Crie um senha" require/> <br />
+            </div>
+
+            <br>
+            <input onclick = "alert('Cadastro realizado com sucesso.')" type="submit" id="botao_cadastro" value="Cadastrar" name="submeter_cadastro" />
+
+        </form>
+    </div>
+
+    <footer>Fique por dentro do evento: 
+
+        <div class = "icons">
+    
+            <a href = "https://www.instagram.com/sieel.oficial/" target = "_blank"><img class = "insta" src = "instagram.png" alt = "instagram"></a>
+            <a href = "https://www.facebook.com/SIEELSaoCarlos/" target = "_blank"><img class = "face" src = "facebook.png" alt = "facebook"></a>
+
+        </div>
+
+
+    </footer>
+
+    <script type="text/javascript" src="index.js"></script>
+
+</body>
+
+</html>

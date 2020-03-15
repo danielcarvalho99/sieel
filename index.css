@@ -1,0 +1,210 @@
+
+body{
+
+    background-color: rgb(27, 27, 27) ;
+    font-family:  sans-serif;
+    color:rgb(240, 227, 227);
+    font-weight: bold;
+}
+
+h1,h3{
+
+    margin-top: 2em;
+    text-align: center;
+}
+
+.JanelaCadastro{
+
+    margin-top: 5em;
+    margin-left: 35vw;
+}
+
+.sobrenome{
+
+    margin-top: 2em;
+}
+.rg{
+
+    margin-top: 2em;
+
+}
+
+.tel{
+
+    margin-top: 2em;
+}
+
+.faculdade{
+
+    margin-top: 2em;
+}
+
+.matricula{
+
+    margin-top: 2em;
+}
+
+.email{
+
+    margin-top: 2em;
+
+}
+
+.criar_senha{
+
+    margin-top: 2em;
+
+}
+
+.container {
+    width:12%;
+    display: flex;
+    padding: 0px;
+}
+
+nav{
+
+        width: 100%;
+        background-color: rgb(70, 69, 69);
+        display: flex;
+        
+}
+
+.input_box{
+    background: none;
+    color: white;
+    border: none;
+    border-bottom: solid green;
+    padding: 6px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.input_box:focus{
+    padding: 3px;
+    border-bottom: solid greenyellow;
+}
+
+.JanelaCadastro form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 0 0.1em white,
+                0 0 1.5em 0 rgba(255, 255, 255, 0.2);
+    padding: 1.9em;
+    width: 15.5em;
+}
+
+#botao_cadastro{
+    color: white;
+    background: none;
+    border: solid greenyellow;
+    border-radius: 15px;
+    padding-left: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 20px;
+    transition: 0.2s;
+    font-weight: bolder;
+}
+#botao_cadastro:hover{
+    background: greenyellow;
+    color: black;
+}
+
+ul{
+
+    font-family: sans-serif;
+    color: rgb(27, 27, 27);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:30%;
+    
+
+}
+
+li {
+    
+    text-align: center;
+    display: inline;
+   
+}
+
+.navLinks{
+
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 47px;
+
+}
+
+.navLinks a{
+
+    color:rgb(37, 36, 36);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+}
+
+.gear{
+
+    position: relative;
+    text-align: center;
+
+
+}
+
+.text_center{
+
+    position: absolute;
+    top:50%;
+    bottom:50%;
+    
+}
+.img_gear{
+
+    transition: 0.2s;
+    
+
+}
+
+footer{
+
+    color: green;
+    margin-top: 80px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    text-align: center;
+    margin-right: 60px;
+}
+
+.icons{
+
+    align-items: center;
+    width:60px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.insta,.face{
+
+    width:40px;
+    padding: 0px;
+    margin-top: 10px;
+
+
+}
+
+.insta{
+    margin-left: 595px; 
+    margin-right: 5px;   
+}
+
+/*header content e footer, deixar width , align-items - stretch, body em flexbox,direction em column */
+/*estilzar no form nao na div */
