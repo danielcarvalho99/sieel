@@ -1,0 +1,100 @@
+.body{
+
+  font-family:  sans-serif;
+  color:rgb(240, 227, 227);
+  font-weight: bold;
+
+}
+
+.JanelaCadastro{
+
+    margin-top: 5em;
+    margin-left: 37vw;
+  }
+  
+  .sobrenome{
+  
+    margin-top: 2em;
+  }
+  .rg{
+  
+    margin-top: 2em;
+  
+  }
+  
+  .tel{
+  
+    margin-top: 2em;
+  }
+  
+  .faculdade{
+  
+    margin-top: 2em;
+  }
+  
+  .matricula{
+  
+    margin-top: 2em;
+  }
+  
+  .email{
+  
+    margin-top: 2em;
+  
+  }
+  
+  .criar_senha{
+  
+    margin-top: 2em;
+  
+  }
+
+  .input_box{
+    background: none;
+    color: white;
+    border: none;
+    border-bottom: solid green;
+    padding: 6px;
+    overflow: hidden;
+    transition: 0.3s;
+  }
+  .input_box:focus{
+    padding: 3px;
+    border-bottom: solid greenyellow;
+  }
+  
+  .JanelaCadastro form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 0 0.1em white,
+                0 0 1.5em 0 rgba(255, 255, 255, 0.2);
+    padding: 1.9em;
+    width: 19.5em;
+  }
+  
+  #botao_cadastro{
+    color: white;
+    background: none;
+    border: solid greenyellow;
+    border-radius: 15px;
+    padding-left: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 20px;
+    transition: 0.2s;
+    font-weight: bolder;
+  }
+  #botao_cadastro:hover{
+    background: greenyellow;
+    color: black;
+  }
+
+  .nobreak{
+
+    margin-top: 2em;
+    text-align: center;
+    white-space: nowrap; 
+}

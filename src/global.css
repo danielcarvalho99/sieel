@@ -1,0 +1,18 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    
+
+}
+
+.body{
+
+  background-color: rgb(27, 27, 27) ;
+  font-family:  sans-serif;
+  color:rgb(240, 227, 227);
+  font-weight: bold;
+
+}

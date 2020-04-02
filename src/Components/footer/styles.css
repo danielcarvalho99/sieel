@@ -1,0 +1,33 @@
+.footer{
+
+    color: green;
+    margin-top: 80px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    text-align: center;
+    margin-right: 60px;
+  }
+  
+  .icons{
+  
+    align-items: center;
+    width:60px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+  
+  }
+  
+  .insta,.face{
+  
+    width:40px;
+    padding: 0px;
+    margin-top: 10px;
+  
+  
+  }
+  
+  .insta{
+    margin-left: 45vw; 
+    margin-right: 5px;   
+  }
