@@ -5,18 +5,3 @@ body{
 
 }
 
-.popup{
-
-    position: fixed;
-    height: 280px;
-    width: 400px;
-    right: 0;
-    left: 0;
-    margin: auto;
-    border-radius: 8px;
-    border: solid gray 3px;
-    background-color: rgb(82, 82, 82);
-    display:none;
-    
-
-}

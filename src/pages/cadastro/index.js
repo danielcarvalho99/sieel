@@ -5,9 +5,9 @@ export default function Cadastro(){
 
     return(
 
-        <div class = "body">
+        <div class ="body">
 
-        <span class = "nobreak">
+        <span class ="nobreak">
             
             <h1>Bem vindo ao Sistema de Cadastro integrado da SIEEL</h1>
             <h3>Ingressos, compras, presenças e certificados. Tudo isso em um único lugar</h3>
