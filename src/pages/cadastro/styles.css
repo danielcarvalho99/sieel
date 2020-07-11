@@ -78,7 +78,7 @@
   #botao_cadastro{
     color: white;
     background: none;
-    border: solid greenyellow;
+    border: solid green;
     border-radius: 15px;
     padding-left: 8px;
     padding-top: 3px;
@@ -88,7 +88,7 @@
     font-weight: bolder;
   }
   #botao_cadastro:hover{
-    background: greenyellow;
+    background: green;
     color: black;
   }
 
@@ -97,4 +97,9 @@
     margin-top: 2em;
     text-align: center;
     white-space: nowrap; 
+}
+
+input {
+
+    margin-top: 10px;
 }
