@@ -43,7 +43,7 @@
   
   }
   
-  .criar_senha{
+  .criar_senha , .confirmarSenha{
   
     margin-top: 2em;
   
@@ -80,9 +80,7 @@
     background: none;
     border: solid green;
     border-radius: 15px;
-    padding-left: 8px;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding: 5px;
     margin-top: 20px;
     transition: 0.2s;
     font-weight: bolder;
@@ -90,6 +88,7 @@
   #botao_cadastro:hover{
     background: green;
     color: black;
+    padding: 5px;
   }
 
   .nobreak{

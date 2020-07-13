@@ -15,23 +15,25 @@ export default function Cadastro(){
            
             <div className="JanelaCadastro">
 
-            <form action="index.php" method="post">
+            <form>
                 <div className="nome">
-                    <label htmlFor="nome">Nome</label> <br />
-                    <input type="text"className="input_box"id="nome"name="nome"size={30}
-                    maxLength={100}placeholder="Insira seu nome"/>
+                    <label>Nome</label> <br />
+                    <input 
+                        type="text"className="input_box"id="nome"name="nome"size={30}
+                        maxLength={100}placeholder="Insira seu nome"/>
                     <br />
                 </div>
 
                 <div className="sobrenome">
-                <label htmlFor="sobrenome">Sobrenome</label> <br />
-                <input type="text"className="input_box"id="sobrenome"name="sobrenome"
-                size={30}maxLength={100}placeholder="Insira o seu sobrenome"/>
+                <label>Sobrenome</label> <br />
+                <input 
+                    type="text"className="input_box"id="sobrenome"name="sobrenome"
+                    size={30}maxLength={100}placeholder="Insira o seu sobrenome"/>
                 <br />
                 </div>
 
                 <div className="rg">
-                <label htmlFor="rg">Número do RG</label> <br />
+                <label>Número do RG</label> <br />
                 <input
                     type="text"id="rg"name="rg"className="input_box"size={30}
                     maxLength={30}placeholder="Insira o seu número de RG"/>
@@ -39,14 +41,15 @@ export default function Cadastro(){
                 </div>
 
                 <div className="tel">
-                    <label htmlFor="tel">Telefone de contato</label> <br />
-                    <input type="tel"id="tel"name="tel"size={30}className="input_box"
-                    placeholder="Insira o seu telefone para contato"/>
+                    <label>Telefone de contato</label> <br />
+                    <input 
+                        type="tel"id="tel"name="tel"size={30}className="input_box"
+                        placeholder="Insira o seu telefone para contato"/>
                 <br />
                 </div>
 
                 <div className="faculdade">
-                <label htmlFor="faculdade">
+                <label>
                     Qual é a sua universidade? <br />
                 </label>
                 <br />
@@ -59,30 +62,42 @@ export default function Cadastro(){
                 </div>
 
                 <div className="matricula">
-                    <label htmlFor="matricula">Número da Matrícula</label> <br />
-                    <input type="text"id="matricula"name="matricula"
-                    className="input_box"size={30}maxLength={30}placeholder="Insira o seu número de matrícula"/>
+                    <label>Número da Matrícula</label> <br />
+                    <input 
+                        type="text"id="matricula"name="matricula"
+                        className="input_box"size={30}maxLength={30}placeholder="Insira o seu número de matrícula"/>
                 <br />
 
                 </div>
                 <div className="email">
-                    <label htmlFor="email">Email</label> <br />
-                    <input type="email"id="email"name="email"
-                    className="input_box"size={30}placeholder="Insira um email"/>
+                    <label>E-mail</label> <br />
+                    <input 
+                        type="email"id="email"name="email"
+                        className="input_box"size={30}placeholder="Insira um email"/>
                 <br />
                 </div>
 
                 <div className="criar_senha">
-                    <label htmlFor="criar_senha">Criar senha</label> <br />
-                    <input type="password"id="criar_senha" name="criar_senha"className="input_box"
-                    size={30}maxLength={50}placeholder="Crie um senha"/>
+                    <label>Criar senha</label> <br />
+                    <input
+                         type="password"id="criar_senha" name="criar_senha"className="input_box"
+                         size={30}maxLength={50}placeholder="Crie uma senha"/>
+                <br />
+                </div>
+
+                <div className="confirmarSenha">
+                    <label >Confirmar senha</label> <br />
+                    <input 
+                        type="password"id="criar_senha" name="criar_senha"className="input_box"
+                        size={30}maxLength={50}placeholder="Confirme sua senha"/>
                 <br />
                 </div>
 
                 <div className="cadastrar">
                     <br />
-                    <input onclick=""id="botao_cadastro"
-                    type = "submit"Value="Cadastrar"name="Cadastrar"/>
+                    <button onclick="cadastrar"id="botao_cadastro"name="Cadastrar">
+                    Cadastrar
+                    </button>
                 </div>
             </form>
             </div>
