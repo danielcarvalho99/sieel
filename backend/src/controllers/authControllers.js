@@ -2,6 +2,10 @@ const express = require('express');
 const User = require('../models/user');
 const router = express.Router();
 
+router.get("/cadastro",(req,res)=>{
+        res.send("Página de cadastro")
+})
+
 router.post("/cadastro", async (req,res) =>{
 
     try{
