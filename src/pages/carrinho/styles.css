@@ -5,3 +5,14 @@
     font-weight: bold;
   
   }
+
+.item{
+
+    
+    text-align: center;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}

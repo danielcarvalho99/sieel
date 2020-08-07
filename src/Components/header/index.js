@@ -3,7 +3,6 @@ import './styles.css';
 import logo from '../../Components/images/logo.png';
 import {FiUser} from 'react-icons/fi';
 import {BsX} from 'react-icons/bs';
-import {Link} from 'react-router-dom';
 import {AbrirJanela,FecharJanela} from '../functions/functions'
 
 export default function Header(){
@@ -30,7 +29,7 @@ export default function Header(){
                 </ul>
             </nav>
 
-            <div id = "login">
+            <div id="login">
                 <form>
                     <div>                    
                         <BsX onClick={FecharJanela} id="BotaoFechar" size={25}/>
@@ -39,8 +38,8 @@ export default function Header(){
                         Efetue seu login
                     </div>
                     <div className="loginInput">
-                        <input placeholder = "Login"/>
-                        <input placeholder = "Senha"/>
+                        <input placeholder="Login"/>
+                        <input placeholder="Senha"/>
                     <br/>
                     </div>    
                     <button >Entrar</button> 

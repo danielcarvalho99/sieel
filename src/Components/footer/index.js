@@ -13,8 +13,8 @@ export default function Footer(){
 
             <div className="icons">
 
-                <a href="https://www.instagram.com/sieel.oficial/" target="_blank"><img className="insta" src = {instagram} alt="instagram"/></a>
-                <a href = "https://www.facebook.com/SIEELSaoCarlos/" target="_blank"><img className="face" src = {facebook} alt="facebook"/></a>
+                <a href="https://www.instagram.com/sieel.oficial/" target="_blank"><img className="insta" src={instagram} alt="instagram"/></a>
+                <a href="https://www.facebook.com/SIEELSaoCarlos/" target="_blank"><img className="face" src={facebook} alt="facebook"/></a>
 
             </div>
 

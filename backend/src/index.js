@@ -11,6 +11,7 @@ require('./controllers/authControllers')(app);
 
 // Rotas
 app.use('/auth/cadastro',cadastro)
+app.use('/auth/user/:id')
 
 app.listen(3010,() =>{
 

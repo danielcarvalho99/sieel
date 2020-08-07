@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import 'react-router-dom';
 import './global.css';
 import Routes from './routes';
@@ -10,7 +10,7 @@ function App() {
 
   return(
     <div>
-    <Header />
+    <Header/>
     <Routes/>
     <Footer/>
     </div>
