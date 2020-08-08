@@ -5,7 +5,7 @@ import {FiUser} from 'react-icons/fi';
 import {BsX} from 'react-icons/bs';
 import {AbrirJanela,FecharJanela} from '../functions/functions'
 
-export default function Header(){
+export default function Header(props){
 
     return (
         
@@ -42,7 +42,7 @@ export default function Header(){
                         <input placeholder="Senha"/>
                     <br/>
                     </div>    
-                    <button >Entrar</button> 
+                    <button>Entrar</button> 
                 </form>
             </div>
         </div>

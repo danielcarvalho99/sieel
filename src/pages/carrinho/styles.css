@@ -8,11 +8,23 @@
 
 .item{
 
-    
     text-align: center;
     margin: 30px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+
+}
+
+#botaoCompra{
+
+  color: white;
+  background: none;
+  border: solid green;
+  border-radius: 15px;
+  padding: 5px;
+  margin-top: 20px;
+  transition: 0.2s;
+  font-weight: bolder;
 
 }
