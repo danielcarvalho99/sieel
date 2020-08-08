@@ -46,8 +46,8 @@ const UserSchema = new mongoose.Schema({
         university:{
 
             type: String,
-            enum: ['USP','UFSCAR','OUTROS'],
-            required:true,
+            enum: ["USP","UFSCar","Outro"]
+    
 
         },
 

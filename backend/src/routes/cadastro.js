@@ -6,8 +6,6 @@ const User = require('../models/user');
 
 router.post('/',(req,res) =>{
 
-
-
         const newUser = {
 
             name: req.body.name,
