@@ -1,0 +1,16 @@
+GET "http://localhost:3010/auth/cadastro"
+Content-Type: application/json
+
+{
+
+    "name": "Daniel",
+    "surname":"Carvalho",
+    "rg":"45678655445",
+    "tel":"675865435",
+    "matricula": "34535343",
+    "email": "testando123@gmail.com",
+    "password": "req.body.password",
+    "university": "USP"
+
+}
+
