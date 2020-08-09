@@ -17,20 +17,12 @@ export default function Cadastro(){
    async function handleAddUser(e) {
     e.preventDefault();
 
-    const response = await api.post("/auth/cadastro",{
-            name,
-            surname,
-            rg,
-            tel,
-            matricula,
-            email,
-            password,
-            university,
-    });
-
-        console.log(response.data);
-   }
-
+        const response = await api.post("/auth/cadastro",{
+                name,surname,rg,tel,matricula,
+                email,password,university,
+        });
+        console.log(response.data);   
+    }
    
     return(
 

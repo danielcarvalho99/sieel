@@ -38,17 +38,16 @@ export default function Header(props){
                         Efetue seu login
                     </div>
                     <div className="loginInput">
-                        <input placeholder="Login"/>
-                        <input placeholder="Senha"/>
+                        <input placeholder="Login" name="login"/>
+                        <input placeholder="Senha" name="password"/>
                     <br/>
                     </div>    
                     <button id="botaoLogin">
-                        <a href="/carrinho">Entrar</a>
+                        Entrar
                     </button> 
                 </form>
             </div>
         </div>
-
                 </div>
   
     );

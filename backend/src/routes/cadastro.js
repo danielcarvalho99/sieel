@@ -23,6 +23,8 @@ router.post('/',(req,res) =>{
             }).catch((err) =>{
             console.log("Não foi possível criar o usuário")
             })
+
+        
        
     })
 

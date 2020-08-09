@@ -10,6 +10,7 @@
 
   margin-top:30px;
   width:6%;
+  align-items: center;
 }
 
 
@@ -20,6 +21,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     align-content: center;
+    margin-top: 40px;
 
 }
 
