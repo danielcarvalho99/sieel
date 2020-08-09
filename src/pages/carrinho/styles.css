@@ -6,13 +6,20 @@
   
   }
 
+#logo{
+
+  margin-top:30px;
+  width:6%;
+}
+
+
 .item{
 
     text-align: center;
-    margin: 30px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    align-content: center;
 
 }
 
@@ -24,7 +31,15 @@
   border-radius: 15px;
   padding: 5px;
   margin-top: 20px;
-  transition: 0.2s;
+  transition: 0.3s;
   font-weight: bolder;
+  width: 30%;
+
+}
+
+#botaoCompra:hover{
+
+  color: black;
+  background: green;
 
 }

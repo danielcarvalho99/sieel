@@ -74,6 +74,19 @@ li {
 
 }
 
+#botaoLogin{
+
+  color:white;
+  font-weight: bolder;
+  font-family: sans-serif;
+  text-decoration:none;
+  background: black;
+  border: solid green;
+  border-radius: 5px;
+  padding: 3px;
+
+}
+
 #BotaoFechar{
 
   margin-left: 23.2em;

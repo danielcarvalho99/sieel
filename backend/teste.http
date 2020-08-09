@@ -1,4 +1,4 @@
-POST http://localhost:3010/auth/cadastro/
+GET  http://localhost:3010/auth/cadastro/
 Content-Type: application/json
 
 {

@@ -42,7 +42,9 @@ export default function Header(props){
                         <input placeholder="Senha"/>
                     <br/>
                     </div>    
-                    <button>Entrar</button> 
+                    <button id="botaoLogin">
+                        <a href="/carrinho">Entrar</a>
+                    </button> 
                 </form>
             </div>
         </div>
