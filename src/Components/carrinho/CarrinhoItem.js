@@ -5,7 +5,7 @@ function CarrinhoItem (props){
 
     function clickHandler(){
 
-        alert("Compra realizada com sucesso")
+        alert("Compra realizada com sucesso!")
     }
 
     return(

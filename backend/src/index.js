@@ -16,6 +16,6 @@ app.use('/auth/cadastro',cadastro)
 
 app.listen(3010,() =>{
 
-    console.log("O servidor está rodando");
+    console.log("The server is running on port 3010");
 
 });
