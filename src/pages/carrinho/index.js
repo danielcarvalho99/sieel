@@ -9,6 +9,8 @@ const itensDoCarrinho = CarrinhoData.map(
         item => <CarrinhoItem 
                 name={item.name}
                 price={item.price}
+                id={item.id}
+                key={item.id}
                 />);
 
 return(

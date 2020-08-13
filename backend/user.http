@@ -1,0 +1,33 @@
+POST http://localhost:3010/auth/cadastro/
+Content-Type: application/json
+
+{
+            "name": "Gabriel",
+            "surname":"Faglioni",
+            "rg":33060096,
+            "tel":"988543532",
+            "matricula": 10685702,
+            "email": "faglioni@usp.br",
+            "password": "senha",
+            "university": "USP"
+
+}
+###
+GET  http://localhost:3010/auth/cadastro/
+Content-Type: application/json
+
+###
+
+PUT http://localhost:3010/auth/cadastro/5f32d962b249291ceacbbe3a
+
+
+{
+        "surname":"Carvalho",
+}
+###
+
+DELETE  http://localhost:3010/auth/cadastro/:id
+Content-Type: application/json
+
+
+

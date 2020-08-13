@@ -23,6 +23,7 @@ export default function Cadastro(){
         });
         console.log(response.data);   
     }
+
    
     return(
 

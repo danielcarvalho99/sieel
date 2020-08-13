@@ -69,7 +69,7 @@ li {
     bottom: 50%;
     margin: auto;
     border: 4px solid green;
-    background-color: rgb(27, 27, 27);
+    background-color:black;
     display: none;
 
 }
@@ -80,7 +80,7 @@ li {
   font-weight: bolder;
   font-family: sans-serif;
   text-decoration:none;
-  background:rgb(27, 27, 27);
+  background:black;
   border: solid green;
   border-radius: 5px;
   padding: 3px;
@@ -113,6 +113,15 @@ li {
     border: 2px rgb(27, 27, 27);
     border-radius: 1px green;
 
+}
+
+.loginInput input{
+
+  padding: 8px;
+  color: white;
+  font-weight: 500;
+  background: black;
+  
 }
 
 #login button{
