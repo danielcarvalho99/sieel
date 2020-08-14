@@ -3,7 +3,16 @@ import './styles.css';
 import logo from '../../Components/images/logo.png';
 import {FiUser} from 'react-icons/fi';
 import {BsX} from 'react-icons/bs';
-import {AbrirJanela,FecharJanela} from '../functions/functions'
+import {AbrirJanela,FecharJanela} from './popup'
+
+
+function submitHandler(e){
+
+    e.preventDefault()
+
+
+    window.location.replace('/carrinho');
+}
 
 export default function Header(props){
 
@@ -20,7 +29,7 @@ export default function Header(props){
                     </li>    
 
                     <li>
-                        <a onClick={AbrirJanela} href="#">Login</a>
+                        <a onClick={AbrirJanela} >Login</a>
                     </li>
 
                     <li>
@@ -30,7 +39,7 @@ export default function Header(props){
             </nav>
 
             <div id="login">
-                <form>
+                <form onSubmit={submitHandler}>
                     <div>                    
                         <BsX onClick={FecharJanela} id="BotaoFechar" size={25}/>
                     </div>
@@ -39,10 +48,10 @@ export default function Header(props){
                     </div>
                     <div className="loginInput">
                         <input placeholder="Login" name="login"/>
-                        <input placeholder="Senha" name="password"/>
+                        <input placeholder="Senha" name="password" type='password'/>
                     <br/>
                     </div>    
-                    <button id="botaoLogin">
+                    <button id="botaoLogin" type='submit'>
                         Entrar
                     </button> 
                 </form>

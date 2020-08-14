@@ -5,10 +5,15 @@ const ProductSchema = new mongoose.Schema({
     name:{
         type: String,
         required:true,
+        unique:true,
     },
 
     inStock:{
         type: Boolean,
+    },
+
+    registers:{
+        type: [String],
     },
     
     quantity:{

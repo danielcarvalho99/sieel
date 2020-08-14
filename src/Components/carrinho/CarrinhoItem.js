@@ -3,10 +3,19 @@ import sieel from '../../Components/images/SIEEL.png';
 import api from '../../services/api';
 
 async function submitHandler(id){
-        
-        const response = await api.put('/product/' + id,{quantity:49});
-        console.log(response.data)
-        alert("Compra realizada com sucesso!")
+    
+        const response = await api.get('/product/' + id);
+        const before = response.data.quantity;
+
+        if(before > 0){
+            const response2 = await api.put('/product/' + id,{quantity: before - 1});
+            console.log(response2);
+            alert("Compra realizada com sucesso!")
+        }
+
+        else{
+            alert("Evento esgotado!")
+        }
 }
 
 function CarrinhoItem (props){

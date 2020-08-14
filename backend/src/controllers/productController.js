@@ -33,6 +33,14 @@ router.delete('/product/:id', function(req, res, next){
         console.log("Product deleted");
     }).catch(next);
 });
+
+router.get('/product/:id',function(req,res,next){
+    Product.findById({_id: req.params.id}).then(function(product){
+        res.send(product)
+        console.log(product);
+    }).catch(next);
+
+});
     
 
 module.exports = (app) => app.use(router)

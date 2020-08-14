@@ -21,7 +21,11 @@ export default function Cadastro(){
                 name,surname,rg,tel,matricula,
                 email,password,university,
         });
-        console.log(response.data);   
+
+        console.log(response.data);
+        
+        window.location.replace('/carrinho');
+      
     }
 
    
