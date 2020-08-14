@@ -14,7 +14,7 @@ router.post('/cadastro', function(req, res, next){
 // GET by e-mail
 router.get('/cadastro/:id',function(req,res,next){
     
-    User.findOne({email: req.body.email}).
+    User.find({email: req.body.email}).
     then(user => res.send(user)).catch(next);
 
 })
